@@ -1,0 +1,17 @@
+[project]
+name = "sessionbar"
+version = "0.1.0"
+description = "US equity session clock, 9 and 21 EMA, and squeeze from a local CSV"
+requires-python = ">=3.11"
+readme = "README.md"
+license = "MIT"
+
+[project.scripts]
+sessionbar = "sessionbar.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
