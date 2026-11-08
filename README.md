@@ -1,6 +1,6 @@
 # sessionbar
 
-sessionbar reads a CSV of bars and reports the US equity session, a 9 EMA, a 21 EMA, and whether a squeeze is on. It is a personal study tool for those three readings.
+sessionbar reads a CSV of bars and reports the US equity session, a 9 EMA, a 21 EMA, and whether the Bollinger Bands are inside the Keltner Channels. It is a personal study tool for those readings.
 
 ## Session rules
 
