@@ -1,8 +1,6 @@
 # sessionbar
 
-A local US equity session clock. It also computes a 9 EMA, a 21 EMA, and a squeeze from a CSV file on your machine.
-
-The tool does not call a broker, a data vendor, or any other network service. Do not put API keys, passwords, or account files in this repository.
+sessionbar reads a CSV of bars and reports the US equity session, a 9 EMA, a 21 EMA, and whether a squeeze is on. It is a personal study tool for those three readings.
 
 ## Session rules
 
